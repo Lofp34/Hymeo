@@ -8,6 +8,7 @@ import ROICalculator from './pages/ROICalculator';
 import Qualitative from './pages/Qualitative';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Proposal from './pages/Proposal';
 import './App.css';
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/qualitatif" element={<Qualitative />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/proposition" element={<Proposal />} />
       </Routes>
     </Router>
   );

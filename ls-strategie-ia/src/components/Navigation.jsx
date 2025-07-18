@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Progrès Qualitatifs', path: '/qualitatif' },
   { label: 'Qui sommes-nous', path: '/about' },
   { label: 'Contact', path: '/contact' },
+  { label: 'Présentation', path: '/proposition' },
 ];
 
 export default function Navigation() {
